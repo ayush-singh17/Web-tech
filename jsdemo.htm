@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var number = 1;
+        let name = "ABC";
+        const company_name = "MIT";
+        let is_student = true;
+        //alert(name);
+        function show_name(){
+            let display = document.getElementById('display_name');
+            display.style.display='block';
+            display.innerHTML = name;
+        }
+        function hide_name(){
+            document.getElementById('display_name').style.display='none';
+        }
+    </script>
+</head>
+<body>
+    <p id = "display_name">he</p>
+    <button onclick = "show_name()">click me</button>
+    <button onclick = "hide_name()">hide me</button>
+</body>
+</html>
