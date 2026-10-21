@@ -1,0 +1,16 @@
+<?xml version = "1.0"?>
+<?xml-stylesheet type="text/xsl" href="employees.xsl"?>
+<employees>
+    <employee>
+        <name>ABC</name>
+        <department>IT</department>
+    </employee>
+    <employee>
+        <name>qwe</name>
+        <department>IT</department>
+    </employee>
+    <employee>
+        <name>rty</name>
+        <department>IT</department>
+    </employee>
+</employees>
